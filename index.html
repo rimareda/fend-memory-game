@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Fabulous Star Wars&trade; Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Rock+Salt">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Star Wars&trade; Match-up</h1>
+        </header>
+
+        <section class="score-panel">
+            <span><span class="timer">0</span> seconds</span>
+        	<ul class="stars">
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        	</ul>
+
+        	<span class="moves">0</span> Moves
+
+            <div class="restart">
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+
+        <ul class="deck">
+            <li class="card">
+                <img class="hide vader" src="img/vader.png" alt="darth vader">
+            </li>
+            <li class="card">
+                <img class="hide vader" src="img/vader.png" alt="darth vader">
+            </li>
+            <li class="card">
+                <img class="hide boba" src="img/boba.png" alt="boba fett">
+            </li>
+            <li class="card">
+                <img class="hide boba" src="img/boba.png" alt="boba fett">
+            </li>
+            <li class="card">
+                <img class="hide kanan" src="img/kanan.png" alt="kanan jarrus">
+            </li>
+            <li class="card">
+                <img class="hide kanan" src="img/kanan.png" alt="kanan jarrus">
+            </li>
+            <li class="card">
+                <img class="hide kylo" src="img/kylo.png" alt="kylo ren">
+            </li>
+            <li class="card">
+                <img class="hide kylo" src="img/kylo.png" alt="kylo ren">
+            </li>
+            <li class="card">
+                <img class="hide luke" src="img/luke.png" alt="old man luke">
+            </li>
+            <li class="card">
+                <img class="hide luke" src="img/luke.png" alt="old man luke">
+            </li>
+            <li class="card">
+                <img class="hide maul" src="img/maul.png" alt="darth maul">
+            </li>
+            <li class="card">
+                <img class="hide maul" src="img/maul.png" alt="darth maul">
+            </li>
+            <li class="card">
+                <img class="hide poe" src="img/poe.png" alt="poe dameron">
+            </li>
+            <li class="card">
+                <img class="hide poe" src="img/poe.png" alt="poe dameron">
+            </li>
+            <li class="card">
+                <img class="hide r2d2" src="img/r2d2.png" alt="r2d2">
+            </li>
+            <li class="card">
+                <img class="hide r2d2" src="img/r2d2.png" alt="r2d2">
+            </li>
+        </ul>
+    </div>
+
+    <div class="modal-background hide">
+        <div class="modal-body">
+            <div class="modal-heading">
+                <h1 class="modal-title">Game Stats</h1>
+                <span class="modal-close">x</span>
+            </div>
+            <div class="modal-stats">
+                <p class="modal-time">Time: </p>
+                <p class="modal-stars">Stars: </p>
+                <p class="modal-moves">Moves: </p>
+            </div>
+            <div class="modal-buttons">
+                <button class="modal-button modal-done">I'm done!</button>
+                <button class="modal-button modal-play">Play again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
