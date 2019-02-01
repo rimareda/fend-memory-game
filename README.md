@@ -1,20 +1,22 @@
-# Memory Game Project
+# Memory Game Project by Rima Reda
 
 ## Table of Contents
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+- [Instructions](#instructions)
+- [How to Play](#howtoplay)
+- [Attributions](#attributions)
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+To run this game, first download all files locally, then run index.html in the browser of your choice.
 
-To get started, open `js/app.js` and start building out the app's functionality
+## How to Play
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+- Clicking/tapping any card will flip it over and start the clock.
+- The goal of this game is to find all the matching pairs.
+- The fewer moves you complete the game in, the higher your score (i.e. number of stars).
+- You can restart/reload the game at any time by hitting the refresh/reload icon above the game board. This will reshuffle the cards.
 
-## Contributing
+## Attributions
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+"Star Wars" and associated characters (Anakin, Obi-Wan, Vader) are the property of LucasFilm Ltd/Disney.
